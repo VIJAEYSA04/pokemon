@@ -1,0 +1,165 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.pokemonname {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:800;
+  font-size: 35px;
+  font-style: normal;
+  background-color:azure;
+
+    display: inline-block;
+  
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+  
+  
+ 
+}
+.image{
+  display: block;
+  height: 150px;
+  width: 150px;
+}
+
+.card {
+  font-family: "Stylish", serif;
+  font-weight: 900;
+  font-style: normal;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:300px;
+  height: 550px;
+  margin-right: 20px;
+  padding: 16px; /* Add padding inside each card */
+  /* Background color for cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  text-align: justify; /* Center-align text inside cards */
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmqJZrSbCMnNVWcwrcwyjhJauEUuCVwjgUiA&s');
+background-size:cover;
+
+}
+
+.card:hover {
+  box-shadow: 0 50px 50px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px); /* Creates 3 columns each 100px wide */
+  gap: 16px; /* Space between grid items */
+  padding: 16px;
+}
+
+.image
+{
+  border-radius: 50%;
+ 
+}
+
+.button-30 {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: sticky;
+  bottom: 0; /* Sticky at the bottom */
+  text-align: center; /* Centered text */
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.search-button {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: sticky;
+  top: 0; /* Sticky at the top */
+  text-align: center; /* Centered text */
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.search-button:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.search-button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.search-button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+body
+{
+  background-image: url('https://preview.redd.it/every-pokemon-in-a-single-image-v0-of9ktyw8s2ac1.jpeg?width=1080&crop=smart&auto=webp&s=dbd1f099dde825243312d9ab760e6f48c200f4d8'); 
+  background-size: cover;
+}
